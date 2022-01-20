@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Spotify Music Recommendation</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Spotify Music Recommendation">
+  <meta name="author" content="Evangeline Monica a/p Rajen(S2123599), Yong Hua Qi(U2102791), Leow Jia Sheng(U2102826) Mohammad Nazrin bin Mohammad Nazri     Nages(U2000443)">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  
+  <aside class="gdbar">
+    <img src="assets/img/spotify1.jpg">
+  </aside>
+  
+  <hgroup class="auto-fadein">
+    <h1>Spotify Music Recommendation</h1>
+    <h2>A little app that tries to help people</h2>
+    <p>Evangeline Monica a/p Rajen(S2123599), Yong Hua Qi(U2102791), Leow Jia Sheng(U2102826) Mohammad Nazrin bin Mohammad Nazri     Nages(U2000443)<br/>WIA 1007 Assignment Group 22</p>
+  </hgroup>
+  
+  <article></article>  
+  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  
+  <hgroup>
+    <h2>Introduction</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    <ol class = "build incremental">
+<li>For our WIA1007 assignment, We choose to make a <span style ="color: #B0FC38; font-weight: strong; font-family: 'Constantia',Serif; font-size: 25px;">Music Recommendation App</span> as our project and its called <span style="color: #03AC13; font-weight: bold; font-family: 'Constantia',Serif; font-size: 25px;">Spotify Music Recommendation</span></li>
+<li>The purpose of the app is to <span style="font-family: 'Constantia',Serif; color: #028A0F; font-weight: bold;font-size: 25px;">recommend songs</span> to users based on their <span style="color: #028A0F; font-family: 'Constantia',Serif; font-weight: bold;font-size: 25px;">favourite genres</span> and <span style="color: #028A0F; font-family: 'Constantia',Serif; font-weight: bold;font-size: 25px;">favourite artists</span></li>
+</ol>
+
+<p></br>
+<span style="font-weight: bold; text-decoration: underline; color: #023047;">Contributors to this Project</span></p>
+
+<ol class = "build incremental">
+<li><p><span style="color: #023047;">Evangeline Monica A/P Rajen &nbsp; (S2123599)</span>     </p></li>
+<li><p><span style="color: #023047;">Yong Hua Qi  &nbsp;  (U2102791)</span>      </p></li>
+<li><p><span style="color: #023047;">Leow Jia Sheng &nbsp;(U2102826)</span>        </p></li>
+<li><p><span style="color: #023047;">Mohammad Nazrin bin Mohammad Nazri Nages &nbsp;  (U2000443) </span>      </p></li>
+</ol>
+
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  
+  <hgroup>
+    <h2>The dataset we used</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    <p><span>The dataset we obtained is from kaggle.com. Click <a href ="https://www.kaggle.com/leonardopena/top-spotify-songs-from-20102019-by-year" style="font-family: 'Constantia',Serif; color: #028A0F; font-weight: bold;">here</a> to view the dataset in browser</span></p>
+
+<iframe src="top10s.html" width=50% height=50% allowtransparency="true"> </iframe>
+
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  
+  <hgroup>
+    <h2>How to use this app</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    <ol class = "build incremental">
+<li><p>The user can <span style="color: #028A0F; font-family: 'Constantia',Serif; font-weight: bold;font-size: 25px;">select their favourite music genre</span>.There are a lot of music genre such as Acoustic Pop, Alaska India, Alternative R&amp;B and so on.</p></li>
+<li><p>Furthermore, the user can also <span style="color: #028A0F; font-family: 'Constantia',Serif; font-weight: bold;font-size: 25px;">select their favourite artist</span>. For example, Khalid, Sia, Adam Lambert and so on.</p></li>
+<li><p>Then, our <span style="color: #028A0F; font-family: 'Constantia',Serif; font-weight: bold;font-size: 25px;">system will display the songs that the user may like</span> based on its popularity as well as the artist,genre and even the year that the song was published.</p></li>
+<li><p>Last but not least,our application will also <span style="color: #028A0F; font-family: 'Constantia',Serif; font-weight: bold;font-size: 25px;">display a graph that are shows the popularity of each songs</span> from your favourite artist.</p></li>
+<li><p>The user can view know the song recommendation and then <span style="color: #028A0F; font-family: 'Constantia',Serif; font-weight: bold;font-size: 25px;">choose a song that was recommended</span> and enjoy the music.</p></li>
+</ol>
+
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-4" style="background:;">
+  
+  <hgroup>
+    <h2>The limitations for this app</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    <ol class = "build incremental">
+<li>The <span style="color: #028A0F; font-family: 'Constantia',Serif; font-weight: bold;font-size: 25px;">total song</span> in this application is <span style="color: #028A0F; font-family: 'Constantia',Serif; font-weight: bold;font-size: 25px;">insufficient.</span></li>
+<li>The user is <span style="color: #028A0F; font-family: 'Constantia',Serif; font-weight: bold;font-size: 25px;">unable to listen to the song directly through the app</span>, they will need to search for the song by themselves through Spotify or other music streaming platforms such as Youtube.</li>
+<li>Since the data is obtained from a <span style="color: #028A0F; font-family: 'Constantia',Serif; font-weight: bold;font-size: 25px;">static dataset</span>, the popularity of the songs is only relevant at the time and date that the dataset was created. The app is <span style="color: #028A0F; font-family: 'Constantia',Serif; font-weight: bold;font-size: 25px;">unable to track future changes</span> to the songs&#39; popularity.</li>
+</ol>
+
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='Introduction'>
+         1
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='The dataset we used'>
+         2
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='How to use this app'>
+         3
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='The limitations for this app'>
+         4
+      </a>
+    </li>
+    
+    </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
